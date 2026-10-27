@@ -1,0 +1,317 @@
+[
+  {
+    "id": "caisson-sui",
+    "name": "隋 · 莫高窟第401窟藻井",
+    "image": "ar-assets/markers/caisson-sui.png",
+    "widthMeters": 0.16,
+    "lesson": null,
+    "credit": "素材由用户提供并确认可用于本项目；AI辅助清理与六层重绘，图注沿用参考图，历史归属未独立核实。",
+    "assetProcessing": {
+      "method": "AI-assisted six-component redraw based on the user-provided reference; not pixel-exact extraction",
+      "removed": [
+        "screenshot labels",
+        "watermark",
+        "black surround",
+        "inset photo"
+      ],
+      "captionStatus": "transcribed from supplied image; historical attribution not independently verified",
+      "layeringStatus": "six independently textured visual planes; component boundaries are an interpretive redraw, not source-object segmentation"
+    },
+    "presentation": {
+      "ornament": true,
+      "reliefDepth": 0,
+      "reliefSteps": 0,
+      "explodeAmount": 1.65,
+      "animateMain": true,
+      "haloSeed": 11
+    },
+    "layers": [
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_01_rear-frame.png",
+        "name": "藻井后框",
+        "depth": 0
+      },
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_02_outer-ornaments.png",
+        "name": "外侧卷叶与角花",
+        "depth": 0.125
+      },
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_03_main-petals.png",
+        "name": "蓝红主瓣",
+        "depth": 0.25
+      },
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_04_jade-interleaves.png",
+        "name": "青绿间饰",
+        "depth": 0.375
+      },
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_05_center-rays.png",
+        "name": "中心放射花心",
+        "depth": 0.5
+      },
+      {
+        "src": "ar-assets/layers/caisson-sui/layer_06_pearl-crescents.png",
+        "name": "珍珠弧饰",
+        "depth": 0.625
+      }
+    ]
+  },
+  {
+    "id": "tuanshan-window-qing",
+    "name": "清 · 团山民居木雕窗格",
+    "image": "ar-assets/markers/tuanshan-window-qing.png",
+    "widthMeters": 0.16,
+    "lesson": null,
+    "credit": "素材由用户提供并确认可用于本项目；AI辅助清理与六层重绘，图注沿用参考图，历史归属未独立核实。",
+    "assetProcessing": {
+      "method": "AI-assisted six-component redraw based on the user-provided reference; not pixel-exact extraction",
+      "removed": [
+        "screenshot labels",
+        "watermark",
+        "black surround",
+        "inset photo"
+      ],
+      "captionStatus": "transcribed from supplied image; historical attribution not independently verified",
+      "layeringStatus": "six independently textured visual planes; component boundaries are an interpretive redraw, not source-object segmentation"
+    },
+    "presentation": {
+      "ornament": true,
+      "reliefDepth": 0,
+      "reliefSteps": 0,
+      "explodeAmount": 1.65,
+      "animateMain": true,
+      "haloSeed": 23
+    },
+    "layers": [
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_01_walnut-medallion.png",
+        "name": "木色圆形底盘",
+        "depth": 0
+      },
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_02_gem-rim.png",
+        "name": "鎏金宝石边框",
+        "depth": 0.125
+      },
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_03_clover-openings.png",
+        "name": "四瓣窗芯框",
+        "depth": 0.25
+      },
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_04_blue-rosette.png",
+        "name": "蓝色四瓣团花",
+        "depth": 0.375
+      },
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_05_ivory-blossoms.png",
+        "name": "四方象牙白小花",
+        "depth": 0.5
+      },
+      {
+        "src": "ar-assets/layers/tuanshan-window-qing/layer_06_center-boss.png",
+        "name": "中心花饰",
+        "depth": 0.625
+      }
+    ]
+  },
+  {
+    "id": "haitang-window-ming",
+    "name": "明 · 拙政园海棠纹漏窗",
+    "image": "ar-assets/markers/haitang-window-ming.png",
+    "widthMeters": 0.16,
+    "lesson": null,
+    "credit": "素材由用户提供并确认可用于本项目；AI辅助清理与六层重绘，图注沿用参考图，历史归属未独立核实。",
+    "assetProcessing": {
+      "method": "AI-assisted six-component redraw based on the user-provided reference; not pixel-exact extraction",
+      "removed": [
+        "screenshot labels",
+        "watermark",
+        "black surround",
+        "inset photo"
+      ],
+      "captionStatus": "transcribed from supplied image; historical attribution not independently verified",
+      "layeringStatus": "six independently textured visual planes; component boundaries are an interpretive redraw, not source-object segmentation"
+    },
+    "presentation": {
+      "ornament": true,
+      "reliefDepth": 0,
+      "reliefSteps": 0,
+      "explodeAmount": 1.65,
+      "animateMain": true,
+      "haloSeed": 37
+    },
+    "layers": [
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_01_jade-backplate.png",
+        "name": "青绿海棠后层",
+        "depth": 0
+      },
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_02_navy-frame.png",
+        "name": "深蓝海棠内框",
+        "depth": 0.125
+      },
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_03_turquoise-lobes.png",
+        "name": "四向青绿花瓣",
+        "depth": 0.25
+      },
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_04_blue-inner-petals.png",
+        "name": "蓝色内瓣与细边",
+        "depth": 0.375
+      },
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_05_coral-inlays.png",
+        "name": "珊瑚色花芯饰片",
+        "depth": 0.5
+      },
+      {
+        "src": "ar-assets/layers/haitang-window-ming/layer_06_center-jewels.png",
+        "name": "中心宝石与角饰",
+        "depth": 0.625
+      }
+    ]
+  },
+  {
+    "id": "pipa-ornament-tang",
+    "name": "唐 · 紫檀木画槽琵琶纹样",
+    "image": "ar-assets/markers/pipa-ornament-tang.png",
+    "widthMeters": 0.16,
+    "lesson": null,
+    "credit": "素材由用户提供并确认可用于本项目；AI辅助清理与六层重绘，图注沿用参考图，历史归属未独立核实。",
+    "assetProcessing": {
+      "method": "AI-assisted six-component redraw based on the user-provided reference; not pixel-exact extraction",
+      "removed": [
+        "screenshot labels",
+        "watermark",
+        "black surround",
+        "inset photo"
+      ],
+      "captionStatus": "transcribed from supplied image; historical attribution not independently verified",
+      "layeringStatus": "six independently textured visual planes; component boundaries are an interpretive redraw, not source-object segmentation"
+    },
+    "presentation": {
+      "ornament": true,
+      "reliefDepth": 0,
+      "reliefSteps": 0,
+      "explodeAmount": 1.65,
+      "animateMain": true,
+      "haloSeed": 53
+    },
+    "layers": [
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_01_scalloped-ground.png",
+        "name": "团花深色底层",
+        "depth": 0
+      },
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_02_gold-quatrefoil.png",
+        "name": "金色四向外框",
+        "depth": 0.125
+      },
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_03_jade-petals.png",
+        "name": "青绿主瓣",
+        "depth": 0.25
+      },
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_04_dark-petals.png",
+        "name": "深色套瓣",
+        "depth": 0.375
+      },
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_05_filigree-heart.png",
+        "name": "中心花饰与金线",
+        "depth": 0.5
+      },
+      {
+        "src": "ar-assets/layers/pipa-ornament-tang/layer_06_corner-rosettes.png",
+        "name": "四角团花与宝石",
+        "depth": 0.625
+      }
+    ]
+  },
+  {
+    "id": "embroidered-eye-mask",
+    "name": "苏绣眼罩礼盒",
+    "image": "ar-assets/product.jpg",
+    "externalId": "1082079045031",
+    "widthMeters": 0.16,
+    "lesson": 0,
+    "credit": "商家已导入商品主图，仅在梨花季项目内使用"
+  },
+  {
+    "id": "lotus",
+    "name": "卷枝莲花",
+    "image": "ar-assets/lotus.png",
+    "basicId": "WM-41700874",
+    "widthMeters": 0.16,
+    "lesson": 1,
+    "credit": "Christopher J. Fynn · CC BY-SA 4.0 · 基于传统纹样绘制",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashtamangala_Lotus.svg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "id": "pear-blossom",
+    "name": "梨花 · 一枝春",
+    "image": "ar-assets/markers/pear-blossom.png",
+    "widthMeters": 0.16,
+    "lesson": null,
+    "credit": "梨花季 · AI辅助原创数字构图，非馆藏图像或真实绣品扫描；散套针工艺说明链接项目官方来源核验知识库。",
+    "craftExperiences": [
+      {
+        "id": "santao-pear-petal",
+        "layerIndex": 4,
+        "knowledgeId": "stitch-santao",
+        "hotspot": {
+          "u": 0.3564453125,
+          "v": 0.67578125,
+          "radius": 0.055
+        },
+        "transform": {
+          "x": -0.1435546875,
+          "y": 0.17578125,
+          "z": 0.006,
+          "scale": 0.00155,
+          "rotationZ": 1.6964600329
+        }
+      }
+    ],
+    "layers": [
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_00_base.png",
+        "name": "底稿",
+        "depth": 0
+      },
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_01_branch.png",
+        "name": "枝干",
+        "depth": 0.03
+      },
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_02_leaf.png",
+        "name": "叶片",
+        "depth": 0.06
+      },
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_03_petals_back.png",
+        "name": "后层花瓣",
+        "depth": 0.09
+      },
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_04_petals_front.png",
+        "name": "前层花瓣",
+        "depth": 0.12
+      },
+      {
+        "src": "ar-assets/layers/pear-blossom/layer_05_stamen.png",
+        "name": "花蕊",
+        "depth": 0.15
+      }
+    ]
+  }
+]

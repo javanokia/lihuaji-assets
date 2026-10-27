@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yzou6525-ai.github.io/lihuaji/contracts/patterns.schema.json",
+  "title": "NormalizedPattern",
+  "description": "Standardized database-ready schema for traditional and museum embroidery patterns in Lihuaji.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "region",
+    "collection",
+    "image",
+    "thumbnail",
+    "sourcePlatform",
+    "author",
+    "license",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique primary key identifier across all pattern archives.",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "title": {
+      "type": "string",
+      "description": "Canonical Chinese display title.",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "originalTitle": {
+      "type": "string",
+      "description": "Original archival title in museum catalogue or source repository.",
+      "maxLength": 255
+    },
+    "subtitle": {
+      "type": ["string", "null"],
+      "description": "Optional secondary title or English subtitle."
+    },
+    "region": {
+      "type": "string",
+      "description": "Cultural geographic region (e.g. 江南, 中原, 巴蜀, 齐鲁, 岭南, 西北, 荆楚, 燕赵, 闽台, 中国传统).",
+      "maxLength": 64
+    },
+    "collection": {
+      "type": "string",
+      "enum": ["basic", "archive"],
+      "description": "Difficulty & sampling tier: 'basic' for beginner sampling, 'archive' for complex reference."
+    },
+    "styleFamily": {
+      "type": ["string", "null"],
+      "description": "Specific motif family (e.g. 如意/灵芝云, 流云/波浪云, 团云/朵云, 连续/结构云, 云气纹)."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Subject and motif classifications (e.g. 花草藤蔓, 鸟兽鱼虫, 人物故事, 几何与团花, 边饰与织锦)."
+    },
+    "culture": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cultural and chronological provenance descriptors."
+    },
+    "period": {
+      "type": ["string", "null"],
+      "description": "Historical period, dynasty or creation date (e.g. 1300s, 清代, 明代, 西汉)."
+    },
+    "technique": {
+      "type": ["string", "null"],
+      "description": "Medium, textile materials and craft techniques."
+    },
+    "image": {
+      "type": "string",
+      "description": "Relative path to high-resolution display WebP asset.",
+      "pattern": "^assets/patterns/[^/]+\\.webp$"
+    },
+    "thumbnail": {
+      "type": "string",
+      "description": "Relative path to thumbnail WebP asset.",
+      "pattern": "^assets/patterns/[^/]+\\.webp$"
+    },
+    "imageSha256": {
+      "type": ["string", "null"],
+      "description": "SHA-256 integrity hash of high-resolution image."
+    },
+    "thumbnailSha256": {
+      "type": ["string", "null"],
+      "description": "SHA-256 integrity hash of thumbnail image."
+    },
+    "width": {
+      "type": ["integer", "null"],
+      "description": "Pixel width of image asset."
+    },
+    "height": {
+      "type": ["integer", "null"],
+      "description": "Pixel height of image asset."
+    },
+    "sourcePlatform": {
+      "type": "string",
+      "description": "Originating museum platform or collection repository (e.g. The Met, 克利夫兰艺术博物馆, 梨花季馆藏)."
+    },
+    "sourceName": {
+      "type": "string",
+      "description": "Display name of source organization."
+    },
+    "sourceUrl": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Canonical web URL to original artwork record."
+    },
+    "sourceApiUrl": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "REST API URL for museum open access object."
+    },
+    "author": {
+      "type": "string",
+      "description": "Author, maker or artist attribution."
+    },
+    "license": {
+      "type": "string",
+      "description": "Rights status (e.g. CC0, Public Domain, 开放许可)."
+    },
+    "licenseUrl": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to license terms."
+    },
+    "accession": {
+      "type": ["string", "null"],
+      "description": "Museum accession or catalogue number."
+    },
+    "museumObjectId": {
+      "type": ["string", "null"],
+      "description": "Numeric or alphanumeric ID within originating museum database."
+    },
+    "rightsVerifiedAt": {
+      "type": ["string", "null"],
+      "description": "Date of copyright and public domain status verification (ISO format)."
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Detailed curator narrative and pattern description."
+    },
+    "curationNote": {
+      "type": ["string", "null"],
+      "description": "Embroidery practice sampling guidance."
+    },
+    "labelNote": {
+      "type": ["string", "null"],
+      "description": "Non-curatorial disclaimer and classification note."
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Highlight status for curated showcases."
+    },
+    "sortWeight": {
+      "type": "integer",
+      "description": "Display priority weight in search and catalogue listings."
+    },
+    "searchTerms": {
+      "type": "string",
+      "description": "Indexed search terms combining keywords, eras and aliases for full-text queries."
+    }
+  }
+}
